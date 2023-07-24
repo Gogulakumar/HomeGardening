@@ -1,0 +1,51 @@
+    /* JournalEntryForm.css */
+
+    .bg007{
+        background-image: url("pexels-rachel-xiao-772429.jpg");
+        background-repeat: no-repeat;
+        position: fixed;  
+        background-size : cover;
+        background-position : center;
+        height:900px;
+        width:1600px;    
+      }
+      .Gj{
+        text-align:center;
+        margin-top: 13%;
+      }
+.journal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 20%;
+    margin-top: 20px; */
+    width: 700px;
+    margin-left: 500px;
+  } 
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
